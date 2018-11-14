@@ -1,7 +1,7 @@
 package com.endpoints.Endpoints;
 
-import com.endpoints.Endpoints.Model.Address;
-import com.endpoints.Endpoints.Model.User;
+import com.endpoints.Endpoints.model.Address;
+import com.endpoints.Endpoints.model.User;
 import lombok.Data;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

@@ -31,4 +31,7 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.projectlombok:lombok:1.16.20')
+	compile('com.graphql-java:graphql-spring-boot-starter:3.6.0')
+	compile('com.graphql-java:graphql-java-tools:3.2.0')
+	compile('com.graphql-java:graphiql-spring-boot-starter:3.6.0')
 }

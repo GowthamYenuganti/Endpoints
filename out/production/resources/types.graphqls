@@ -1,0 +1,22 @@
+type Query {
+    users: [User]
+    addresses: [Address]
+    sample: String
+}
+
+type User {
+    id: Int!
+    name: String!
+    addressId: Int!
+}
+
+type Address {
+    id: Int!
+    state: String!
+    city: String!
+    zipcode: Int!
+    userIds: [Int]!
+}
+type sample{
+    sampleName: String
+}
